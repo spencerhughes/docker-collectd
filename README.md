@@ -17,7 +17,7 @@ Run collectd with the default configuration:
 docker run \
   --privileged \
   -v /proc:/mnt/proc:ro \
-  fr3nd/collectd
+  spencerhughes/collectd
 ```
 
 Run collectd with a custom configuration stored in /etc/collect
@@ -27,7 +27,7 @@ docker run \
   --privileged \
   -v /etc/collectd:/etc/collectd:ro \
   -v /proc:/mnt/proc:ro \
-  fr3nd/collectd
+  spencerhughes/collectd
 ```
 
 ## FAQ
